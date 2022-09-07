@@ -2,26 +2,28 @@
 
 # CROPDOC
 B.E Final year project. 
-It is an AI based crop disease predictor. Which can predict the disease of the crop based on the images taken by the user.
+It is an Deep Learning based crop disease predictor Which can predict the disease of the crop based on the images given by the user.
 
 ### Libraries used:
 1. tensorflow
-2. django
-3. pillow
-4. opencv-python
-5. requests
-6. bs4
-7. numpy
-8. lxml
-9. boto3
-10. django-storages
-11. mysqlclient
+2. keras
+4. django
+5. pillow
+6. opencv-python
+7. requests
+8. bs4
+9. numpy
+10. lxml
+11. boto3
+12. Json
+13. django-storages
+14. mysqlclient
 
 ---------
 
 ## Team Members
 - [Siddiqui Affan](https://github.com/siddiquiaffan)
-- [Shaikh Aman](https://github.com/aman3786)
+- [Shaikh Aman](https://github.com/Aman3786)
 - [Shaikh Rauf](https://github.com/imrauf)
 - [Siddiqui Sufiyan](https://github.com/sufiyan571)
 
