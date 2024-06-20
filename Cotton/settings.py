@@ -79,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'CROPDOC',
-        'USER': 'admin',
-        'PASSWORD': 'cropdoc786',
-        'HOST': 'crop-doc.celiuy13ejf2.ap-south-1.rds.amazonaws.com',
+        'USER': 'username',
+        'PASSWORD': 'password',
+        'HOST': 'crop-doc.celiuy13ejf2.ap-south-1.rds.amazonaws.com', # This Host is deleted. Use Yours.
         'PORT':3306
     }
 }
@@ -142,8 +142,8 @@ STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 # Amazon S3 bucket settings
 AWS_QUERYSTRING_AUTH = False
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_ACCESS_KEY_ID = 'AKIA3YS42MVBB4JL2OS5'
-AWS_SECRET_ACCESS_KEY = 'PiXB2L2Bom3cm5TKrpH6UcHU1uJ2Se8aQsCf+TI/'
+AWS_ACCESS_KEY_ID = 'AKMAVIA3YS42MVB1APQB4JL2OS5' # Use Yours Key ID
+AWS_SECRET_ACCESS_KEY = 'PilzpEaNXB2L2Bom3cm5TbTyaUPqweKrpH6UcHU1uJ2Se8aQsCfbvquiaPq+TI/' # Use Yours Secret Key
 AWS_STORAGE_BUCKET_NAME = 'cropdoc-bucket'
 
 # SECURE_REFERRER_POLICY = "no-referrer-when-downgrade"
